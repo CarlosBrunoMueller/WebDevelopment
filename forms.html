@@ -12,9 +12,27 @@
 
     <h1>Login</h1>
 
+    <!-- <form action="http://wikipedia.org">
+
+        <label>Username:
+            <input name="username" type="text" placeholder="username">
+        </label>
+
+        <label>Password:
+            <input name="password" type="password" placeholder="password">
+        </label>
+
+        <input type="submit">
+    </form> -->
+
     <form action="http://wikipedia.org">
-        <input name="username" type="text" placeholder="username">
-        <input name="password" type="password" placeholder="password">
+
+        <label for="username">Email:</label>
+        <input id="username" name="username" type="email" placeholder="email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" placeholder="password" required>
+
         <input type="submit">
     </form>
 
